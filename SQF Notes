@@ -38,3 +38,7 @@ mod
 xor (a||b) && !(a&&b)
 nor !(a||b)
 nand !(a&&b)
+
+Land_Cargo_HQ_V1_F - Military Cargo HQ Green
+
+OBJEKT INIT: null = "Land_Cargo_HQ_V1_F" createVehicle position this; deleteVehicle this;
