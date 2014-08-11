@@ -16,6 +16,8 @@ Anforderung:
 - Spawn von mehreren Neulingen
 - Ausgang Fähigkeit für Einwanderer
 - White-/ Blacklisting von Spielern
+- Ist jemand weder auf der whitelist, noch auf der blacklist, ist er neu und
+  kommt in die Einwanderungsbehörde
 
 Technisch:
 - NUR erstes Verbinden
