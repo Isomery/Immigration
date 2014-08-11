@@ -43,6 +43,11 @@ Land_Cargo_HQ_V1_F - Military Cargo HQ Green
 
 OBJEKT INIT: null = "Land_Cargo_HQ_V1_F" createVehicle position this; deleteVehicle this;
 
+Debugging
+
+_vari = 5;_var = 4; hint format["Something: %1", _vari,_var];
+%POS OF ARGS
+
 Debug DebugEquip
 _obj = _this select 0; //the object that had the action
 _caller = _this select 1; //unit that called the action
