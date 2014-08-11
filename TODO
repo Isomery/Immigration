@@ -1,0 +1,23 @@
+German
+
+Zweck der "Einwanderungsbehörde"
+- Abschrecken von Trollen
+- RP unterstreichen 
+
+Bei dem aller ersten Verbinden mit dem Server soll der eindeutige und neue
+Spieler in einen geschlossenen Haus spawnen.
+Der neue Spieler soll hier von einer berechtigten Instanz entweder entfernt
+werden oder dazu berechtigt werden, das Land zu betreten.
+Bis dies geschieht, soll dieser im Gebäude warten und Tee trinken.
+
+Anforderung:
+- Abgeschlossenens Gebäude (Gebäude komplex?)
+- Ein- Ausgang für Admins
+- Spawn von mehreren Neulingen
+- Ausgang Fähigkeit für Einwanderer
+- White-/ Blacklisting von Spielern
+
+Technisch:
+- NUR erstes Verbinden
+- Gebannte ignorieren
+- 
