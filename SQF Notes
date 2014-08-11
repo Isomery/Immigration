@@ -42,3 +42,22 @@ nand !(a&&b)
 Land_Cargo_HQ_V1_F - Military Cargo HQ Green
 
 OBJEKT INIT: null = "Land_Cargo_HQ_V1_F" createVehicle position this; deleteVehicle this;
+
+Debug DebugEquip
+_obj = _this select 0; //the object that had the action
+_caller = _this select 1; //unit that called the action
+_id = _this select 2; //id of the action
+
+_outp = "HEADGEAR  =  " + (headgear _caller)
+	+ "\n\nGOGGLES  =  " + (goggles _caller)
+	+ "\n\nPRIM. WEAPON  =  " + (primaryWeapon _caller) + "  =  " + (str primaryWeaponItems _caller)
+	+ "\n\nSEC. WEAPON  =  " + (secondaryWeapon _caller) + "  =  " + (str secondaryWeaponItems _caller)
+	+ "\n\nHANDGUN  =  " + (handgunWeapon _caller) + "  =  " + (str handgunItems _caller)
+	+ "\n\nASSIGNED ITEMS  =  " + (str assignedItems _caller)
+	+ "\n\nUNIFORM  =  " + (uniform _caller) + "  =  " + (str uniformItems _caller)
+	+ "\n\nVEST  =  " + (vest _caller) + "  =  " + (str vestItems _caller)
+	+ "\n\nBACKPACK  =  " + (backpack _caller) + "  =  " + (str backpackItems _caller);
+	//+ "\n\nALL WEAPONS  =  " + (str weapons _caller)
+	//+ "\n\nALL MAGAZINES  =  " + (str magazines _caller);
+
+titleText [_outp, "BLACK IN", 30]; //print our info
