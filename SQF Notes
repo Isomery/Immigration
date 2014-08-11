@@ -21,6 +21,7 @@ local   var -> _var;
 %
 mod
 ^
+!
 
 ==
 !=
@@ -31,3 +32,9 @@ mod
 
 +=
 -=
+
+&&
+||
+xor (a||b) && !(a&&b)
+nor !(a||b)
+nand !(a&&b)
