@@ -1,0 +1,23 @@
+#### Datatypes
+Integer
+Number
+String
+Objekt - ObjektID
+Handle - Script
+Boolean
+
+private var -> private [_var];
+global  var -> var;
+local   var -> _var;
+
+//
+/**/
+
+#### Ops
++
+-
+*
+/
+%
+mod
+^
