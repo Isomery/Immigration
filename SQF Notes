@@ -39,12 +39,23 @@ xor (a||b) && !(a&&b)
 nor !(a||b)
 nand !(a&&b)
 
-Land_Cargo_HQ_V1_F - Military Cargo HQ Green
+------------------------------------------------------------
 
-OBJEKT INIT: null = "Land_Cargo_HQ_V1_F" createVehicle position this; deleteVehicle this;
+Land_Cargo_HQ_V1_F 	- Military Cargo HQ Green
+Land_CampingChair_V2_F	- Camping Chair
 
-Debugging
+------------------------------------------------------------
+OBJEKT ERZEUGEN
+INIT: null = "Land_Cargo_HQ_V1_F" createVehicle position this; deleteVehicle this;
 
+ADD ACTION
+INIT: this addAction ["Hi", {hint "test"} ];
+OR: INIT: this addAction ["Hi", "test.sqf" ];
+OR: INIT: this addAction ["Hi", {player addAction ["hello", { hint "new line" } ] } ]; // Player, who is it and who is affected by this?
+
+
+
+DEBUGGING
 _vari = 5;_var = 4; hint format["Something: %1", _vari,_var];
 %POS OF ARGS
 
