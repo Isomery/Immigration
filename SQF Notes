@@ -39,6 +39,12 @@ xor (a||b) && !(a&&b)
 nor !(a||b)
 nand !(a&&b)
 
+call compile preprocessFile "=extFolder\=initOrWhatever.sqf";
+
+init.sqf -> Executed when mission is started (before briefing screen) 
+initServer.sqf -> Executed only on server when mission is started. See initialization order for details about when the script is exactly executed.
+player ist ein Objekt und repräsentiert den Wert des jeweiligen Computers.
+
 ------------------------------------------------------------
 
 Land_Cargo_HQ_V1_F 	- Military Cargo HQ Green
